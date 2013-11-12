@@ -463,6 +463,15 @@
 #define MCE_INACTIVITY_SIG		"system_inactivity_ind"
 
 /**
+ * Notify everyone that the user did something
+ * This includes pressing keys, touching the screen and similar actions
+ * Note: The signal is a positive trigger, not a state indication
+ *
+ * @since v1.12.6
+ */
+#define MCE_USER_ACTIVITY_SIG		"user_activity_ind"
+
+/**
  * Notify everyone that the color profile has changed
  *
  * @since v1.11.2
